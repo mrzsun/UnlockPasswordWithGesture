@@ -1,3 +1,3 @@
 # UnlockPasswordWithGesture
-一个手势解锁的demo。
-this is my first project on github.
+a demo about using tap gesture to unlock somthing with ios apps.
+this is my first project on github, just for test.
