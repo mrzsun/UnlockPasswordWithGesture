@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2D2C9C1CA4EB60007F7E25 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */; };
 		E08046571BBADDDF004029B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08046561BBADDDF004029B1 /* main.m */; };
 		E080465A1BBADDDF004029B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E08046591BBADDDF004029B1 /* AppDelegate.m */; };
 		E080465D1BBADDDF004029B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E080465C1BBADDDF004029B1 /* ViewController.m */; };
@@ -15,12 +16,12 @@
 		E08046651BBADDDF004029B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08046631BBADDDF004029B1 /* LaunchScreen.storyboard */; };
 		E08046701BBADDE0004029B1 /* test_unlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E080466F1BBADDE0004029B1 /* test_unlockTests.m */; };
 		E080467B1BBADDE0004029B1 /* test_unlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E080467A1BBADDE0004029B1 /* test_unlockUITests.m */; };
-		E0EAD0451BBBE99600DF386A /* gesture_node_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0431BBBE99600DF386A /* gesture_node_highlighted.png */; settings = {ASSET_TAGS = (); }; };
-		E0EAD0461BBBE99600DF386A /* gesture_node_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0441BBBE99600DF386A /* gesture_node_highlighted@2x.png */; settings = {ASSET_TAGS = (); }; };
-		E0EAD0491BBBE9A100DF386A /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0471BBBE9A100DF386A /* gesture_node_normal.png */; settings = {ASSET_TAGS = (); }; };
-		E0EAD04A1BBBE9A100DF386A /* gesture_node_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0481BBBE9A100DF386A /* gesture_node_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
-		E0EAD04C1BBBE9AE00DF386A /* Home_refresh_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD04B1BBBE9AE00DF386A /* Home_refresh_bg.png */; settings = {ASSET_TAGS = (); }; };
-		E0EAD04F1BBBEA3600DF386A /* UnLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EAD04E1BBBEA3600DF386A /* UnLockView.m */; settings = {ASSET_TAGS = (); }; };
+		E0EAD0451BBBE99600DF386A /* gesture_node_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0431BBBE99600DF386A /* gesture_node_highlighted.png */; };
+		E0EAD0461BBBE99600DF386A /* gesture_node_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0441BBBE99600DF386A /* gesture_node_highlighted@2x.png */; };
+		E0EAD0491BBBE9A100DF386A /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0471BBBE9A100DF386A /* gesture_node_normal.png */; };
+		E0EAD04A1BBBE9A100DF386A /* gesture_node_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD0481BBBE9A100DF386A /* gesture_node_normal@2x.png */; };
+		E0EAD04C1BBBE9AE00DF386A /* Home_refresh_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EAD04B1BBBE9AE00DF386A /* Home_refresh_bg.png */; };
+		E0EAD04F1BBBEA3600DF386A /* UnLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EAD04E1BBBEA3600DF386A /* UnLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2D2C9A1CA4EB60007F7E25 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		E08046521BBADDDF004029B1 /* test-unlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-unlock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08046561BBADDDF004029B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E08046581BBADDDF004029B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,9 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE2D2C991CA4EB51007F7E25 /* testGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D2C9A1CA4EB60007F7E25 /* TestClass.h */,
+				BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */,
+			);
+			name = testGroup;
+			sourceTree = "<group>";
+		};
 		E08046491BBADDDF004029B1 = {
 			isa = PBXGroup;
 			children = (
+				BE2D2C991CA4EB51007F7E25 /* testGroup */,
 				E08046541BBADDDF004029B1 /* test-unlock */,
 				E080466E1BBADDE0004029B1 /* test-unlockTests */,
 				E08046791BBADDE0004029B1 /* test-unlockUITests */,
@@ -296,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2D2C9C1CA4EB60007F7E25 /* TestClass.m in Sources */,
 				E080465D1BBADDDF004029B1 /* ViewController.m in Sources */,
 				E080465A1BBADDDF004029B1 /* AppDelegate.m in Sources */,
 				E0EAD04F1BBBEA3600DF386A /* UnLockView.m in Sources */,
