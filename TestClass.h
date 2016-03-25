@@ -10,6 +10,6 @@
 
 @interface TestClass : NSObject
 @property (copy,nonatomic) NSString *testProperty;
-
+@property (copy,nonatomic) NSString *tryThis;
 
 @end
