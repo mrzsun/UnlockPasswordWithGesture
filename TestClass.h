@@ -11,4 +11,5 @@
 @interface TestClass : NSObject
 @property (copy,nonatomic) NSString *testProperty;
 
+
 @end
