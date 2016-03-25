@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE2D2C9C1CA4EB60007F7E25 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */; };
+		BE2D2C9F1CA4EC34007F7E25 /* TwoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D2C9E1CA4EC34007F7E25 /* TwoTest.m */; };
 		E08046571BBADDDF004029B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08046561BBADDDF004029B1 /* main.m */; };
 		E080465A1BBADDDF004029B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E08046591BBADDDF004029B1 /* AppDelegate.m */; };
 		E080465D1BBADDDF004029B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E080465C1BBADDDF004029B1 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		BE2D2C9A1CA4EB60007F7E25 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		BE2D2C9D1CA4EC34007F7E25 /* TwoTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTest.h; sourceTree = "<group>"; };
+		BE2D2C9E1CA4EC34007F7E25 /* TwoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTest.m; sourceTree = "<group>"; };
 		E08046521BBADDDF004029B1 /* test-unlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-unlock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08046561BBADDDF004029B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E08046581BBADDDF004029B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			children = (
 				BE2D2C9A1CA4EB60007F7E25 /* TestClass.h */,
 				BE2D2C9B1CA4EB60007F7E25 /* TestClass.m */,
+				BE2D2C9D1CA4EC34007F7E25 /* TwoTest.h */,
+				BE2D2C9E1CA4EC34007F7E25 /* TwoTest.m */,
 			);
 			name = testGroup;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2D2C9F1CA4EC34007F7E25 /* TwoTest.m in Sources */,
 				BE2D2C9C1CA4EB60007F7E25 /* TestClass.m in Sources */,
 				E080465D1BBADDDF004029B1 /* ViewController.m in Sources */,
 				E080465A1BBADDDF004029B1 /* AppDelegate.m in Sources */,
