@@ -11,5 +11,7 @@
 @interface TwoTest : NSObject
 @property (copy,nonatomic) NSString *twoSomething;
 @property (copy,nonatomic) NSString *testView;
+@property (nonatomic,copy) NSString *aaa;
+
 
 @end
